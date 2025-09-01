@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_rive_sample/widgets/like.dart';
+import 'package:flutter_rive_sample/widgets/rive_like.dart';
 
-void main() {
+void main() async {
   runApp(const MyApp());
 }
 
@@ -33,7 +34,15 @@ class MyHomePage extends StatelessWidget {
         title: Text(title),
       ),
       body: const Center(
-        child: Padding(padding: EdgeInsets.all(32.0), child: LikeButton()),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Text('AnimationController', style: TextStyle(fontSize: 24)),
+            LikeButton(),
+            Text('Rive', style: TextStyle(fontSize: 24)),
+            RiveLikeButton(),
+          ],
+        ),
       ),
     );
   }

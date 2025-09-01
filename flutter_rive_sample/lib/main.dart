@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_rive_sample/dashmaru.dart';
 
 void main() {
   runApp(const MyApp());
@@ -35,10 +36,7 @@ class MyHomePage extends StatelessWidget {
         alignment: AlignmentGeometry.topCenter,
         child: Padding(
           padding: EdgeInsets.all(32.0),
-          child: Text(
-            'Like Button Sample',
-            style: TextStyle(fontSize: 24),
-          ),
+          child: Dashmaru()
         ),
       ),
     );

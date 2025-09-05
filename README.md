@@ -6,3 +6,8 @@
 
 
 like button の rive は[こちら](https://rive.app/s/WFfcoZZQYEiOa6DnqHCkbA/?runtime=rive-renderer)
+
+発表資料は[こちら](https://speakerdeck.com/kno3a87/nurunurudong-kase-riveteanimesiyonshi-zhuang)
+
+https://github.com/user-attachments/assets/fee8346f-3f5a-40ae-b2b1-dd818b081543
+
